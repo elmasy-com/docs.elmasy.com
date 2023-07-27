@@ -75,7 +75,7 @@ const config = {
           position: 'left',
           label: 'Docs',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/elmasy-com',
           label: 'GitHub',
@@ -91,7 +91,7 @@ const config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/',
             },
           ],
         },
@@ -116,10 +116,6 @@ const config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
             },
@@ -133,6 +129,10 @@ const config = {
       darkTheme: darkCodeTheme,
     },
   },
+
+  scripts: [
+    { src: '/js/script.js', defer: true, 'data-domain': 'wiki.elmasy.com' } // Plausible
+  ],
 };
 
 module.exports = config;
