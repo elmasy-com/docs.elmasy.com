@@ -3,5 +3,6 @@ sidebar_position: 1
 slug: /
 ---
 
-# Elmasy Wiki
+# Elmasy Docs
 
+Documentations for Elmasy and configuration/setting guides.
