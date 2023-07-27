@@ -60,6 +60,19 @@ const config = {
       defaultMode: 'dark',
       disableSwitch: true,
     },
+    // docs: {
+    //   sidebar: {
+    //     autoCollapseCategories: true,
+    //   },
+    // },
+    // announcementBar: {
+    //   id: 'support_us',
+    //   content:
+    //     'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+    //   backgroundColor: '#fafbfc',
+    //   textColor: '#091E42',
+    //   isCloseable: false,
+    // },
     // Replace with your project's social card
     image: 'logo.png',
     navbar: {
@@ -71,7 +84,7 @@ const config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'docSidebar',
           position: 'left',
           label: 'Docs',
         },
@@ -87,11 +100,11 @@ const config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Modules',
           items: [
             {
-              label: 'Tutorial',
-              to: '/',
+              label: 'Columbus Project',
+              to: 'https://columbus.elmasy.com',
             },
           ],
         },
@@ -116,8 +129,8 @@ const config = {
           title: 'More',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Swagger-UI',
+              href: 'https://swagger-ui.elmasy.com',
             },
           ],
         },
