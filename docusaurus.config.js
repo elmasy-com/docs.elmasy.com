@@ -82,13 +82,13 @@ const config = {
         src: '/logo_white.svg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'docSidebar',
-          position: 'left',
-          label: 'Docs',
-        },
-        { to: '/', label: 'Blog', position: 'left' },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'docSidebar',
+        //   position: 'left',
+        //   label: 'Docs',
+        // },
+        //{ to: '/', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/elmasy-com',
           label: 'GitHub',
