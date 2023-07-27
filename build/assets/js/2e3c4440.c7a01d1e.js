@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwiki_elmasy_com=self.webpackChunkwiki_elmasy_com||[]).push([[251],{4736:e=>{e.exports=JSON.parse('{"label":"nginx","permalink":"/tags/nginx","allTagsPath":"/tags","count":1,"items":[{"id":"guides/certbot","title":"Certbot","description":"Use Certbot to obtain free TLS certificate from Let\'s Encrypt.","permalink":"/guides/certbot"}]}')}}]);
