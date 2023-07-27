@@ -6,12 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Elmasy Wiki',
+  title: 'Elmasy Docs',
   tagline: 'Elmasy documentation and knowledge base.',
   favicon: '/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://wiki.elmasy.com',
+  url: 'https://docs.elmasy.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'elmasy-com', // Usually your GitHub org/user name.
-  projectName: 'wiki.elmasy.com', // Usually your repo name.
+  projectName: 'docs.elmasy.com', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -43,7 +43,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/elmasy-com/wiki.elmasy.com/tree/main/',
+            'https://github.com/elmasy-com/docs.elmasy.com/tree/main/',
         },
         blog: false,
         theme: {
@@ -76,7 +76,7 @@ const config = {
     // Replace with your project's social card
     image: 'logo.png',
     navbar: {
-      title: 'Elmasy Wiki',
+      title: 'Elmasy Docs',
       logo: {
         alt: 'Elmasy logo',
         src: '/logo_white.svg',
@@ -144,7 +144,7 @@ const config = {
   },
 
   scripts: [
-    { src: '/js/script.js', defer: true, 'data-domain': 'wiki.elmasy.com' } // Plausible
+    { src: '/js/script.js', defer: true, 'data-domain': 'docs.elmasy.com' } // Plausible
   ],
 };
 
