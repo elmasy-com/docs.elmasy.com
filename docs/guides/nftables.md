@@ -6,7 +6,9 @@ tags: ["firewall"]
 ---
 # nftable
 
-## Basic config
+## Simple stateful firewall
+
+Simple firewall for a basic webserver.
 
 ```
 #!/usr/sbin/nft -f
@@ -16,8 +18,6 @@ flush rules
 table inet filter {
 
 	chain inbound_ipv4 {
-		tcp dport 80 accept
-		tcp dport 443 accept
 		icmp type echo-request limit rate 5/second accept
 	}
 
@@ -32,6 +32,8 @@ table inet filter {
 		iifname lo accept
 		meta protocol vmap { ip : jump inbound_ipv4, ip6 : jump inbound_ipv6 }
 		tcp dport 22 accept
+        tcp dport 80 accept
+        tcp dport 443 accept
 		reject
 	}
 
@@ -47,7 +49,7 @@ table inet filter {
 
 ## Rules
 
-Filter by source IP address:
+Filter by source IP address and destination port:
 ```
-ip saddr 1.1.1.1 accept
+ip saddr 1.1.1.1 tcp dport 80 accept
 ```
