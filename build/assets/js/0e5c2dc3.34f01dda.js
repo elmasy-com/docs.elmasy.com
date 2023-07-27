@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwiki_elmasy_com=self.webpackChunkwiki_elmasy_com||[]).push([[127],{3769:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
