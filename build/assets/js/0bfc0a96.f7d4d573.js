@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwiki_elmasy_com=self.webpackChunkwiki_elmasy_com||[]).push([[988],{6075:i=>{i.exports=JSON.parse('{"label":"monitoring","permalink":"/tags/monitoring","allTagsPath":"/tags","count":1,"items":[{"id":"guides/uptimekuma","title":"Uptime Kuma","description":"A fancy self-hosted monitoring tool.","permalink":"/guides/uptimekuma"}]}')}}]);
