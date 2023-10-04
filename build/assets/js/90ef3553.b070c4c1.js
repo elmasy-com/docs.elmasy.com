@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwiki_elmasy_com=self.webpackChunkwiki_elmasy_com||[]).push([[288],{6741:e=>{e.exports=JSON.parse('{"label":"dns","permalink":"/tags/dns","allTagsPath":"/tags","count":1,"items":[{"id":"guides/coredns","title":"CoreDNS","description":"Install and manage CoreDNS.","permalink":"/guides/coredns"}]}')}}]);
