@@ -4,7 +4,6 @@ keywords: ["nftables", "firewall"]
 description: nftables is a subsystem of the Linux kernel providing filtering and classification of network packets/datagrams/frames.
 tags: ["firewall"]
 ---
-# nftable
 
 ## Simple stateful firewall
 
@@ -13,7 +12,7 @@ Simple firewall for a basic webserver.
 ```
 #!/usr/sbin/nft -f
 
-flush rules
+flush ruleset
 
 table inet filter {
 
