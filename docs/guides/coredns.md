@@ -74,6 +74,7 @@ AmbientCapabilities=CAP_NET_BIND_SERVICE
 Restart=always
 WorkingDirectory=/etc/coredns
 ExecStart=/usr/bin/coredns 
+ExecReload=/usr/bin/kill -USR1 $MAINPID
 
 [Install]
 WantedBy=multi-user.target
